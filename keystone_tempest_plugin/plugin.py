@@ -16,10 +16,14 @@
 
 import os
 
+#import rook
+#rook.start(token="a8d9ca090682a7eec7a08cc3b747bfdd88aab6d044e91b8fca4a9f95226a5e9d")
+
 from tempest import config
 from tempest.test_discover import plugins
 
 from keystone_tempest_plugin import config as project_config
+
 
 
 class KeystoneTempestPlugin(plugins.TempestPlugin):
